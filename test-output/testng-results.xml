@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-24T22:05:15 IST" name="sunny suite" finished-at="2021-06-24T22:05:29 IST" duration-ms="13524">
+    <groups>
+      <group name="Sanity">
+        <method signature="demotest1.methodNo2()[pri:1, instance:Selenium.Jenkins.demotest1@73ee04c8]" name="methodNo2" class="Selenium.Jenkins.demotest1"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="SmokeSuite.smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6c130c45]" name="smoke1" class="Selenium.Jenkins.SmokeSuite"/>
+        <method signature="demotest1.methodNo2()[pri:1, instance:Selenium.Jenkins.demotest1@73ee04c8]" name="methodNo2" class="Selenium.Jenkins.demotest1"/>
+        <method signature="demotest1.searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.demotest1@73ee04c8]" name="searchMyNameInGoogle" class="Selenium.Jenkins.demotest1"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="SmokeSuite.smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6c130c45]" name="smoke1" class="Selenium.Jenkins.SmokeSuite"/>
+        <method signature="demotest1.methodNo2()[pri:1, instance:Selenium.Jenkins.demotest1@73ee04c8]" name="methodNo2" class="Selenium.Jenkins.demotest1"/>
+        <method signature="demotest1.searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.demotest1@73ee04c8]" name="searchMyNameInGoogle" class="Selenium.Jenkins.demotest1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-06-24T22:05:15 IST" name="Test" finished-at="2021-06-24T22:05:29 IST" duration-ms="13524">
+      <class name="Selenium.Jenkins.demotest1">
+        <test-method signature="methodNo2()[pri:1, instance:Selenium.Jenkins.demotest1@73ee04c8]" started-at="2021-06-24T22:05:16 IST" name="methodNo2" finished-at="2021-06-24T22:05:16 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodNo2 -->
+        <test-method signature="searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.demotest1@73ee04c8]" started-at="2021-06-24T22:05:16 IST" name="searchMyNameInGoogle" finished-at="2021-06-24T22:05:27 IST" duration-ms="11330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMyNameInGoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.Jenkins.demotest1@73ee04c8]" started-at="2021-06-24T22:05:27 IST" name="tearDown" finished-at="2021-06-24T22:05:29 IST" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.Jenkins.demotest1 -->
+      <class name="Selenium.Jenkins.SmokeSuite">
+        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6c130c45]" started-at="2021-06-24T22:05:29 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-24T22:05:29 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[panwar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke1 -->
+        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6c130c45]" started-at="2021-06-24T22:05:29 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-24T22:05:29 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[panwar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke1 -->
+        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6c130c45]" started-at="2021-06-24T22:05:29 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-24T22:05:29 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pooja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[panwar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke1 -->
+      </class> <!-- Selenium.Jenkins.SmokeSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- sunny suite -->
+</testng-results>
