@@ -52,7 +52,7 @@ public class RegressionSuite {
 
 	@Test(priority = 2, groups = { "Regression", "Smoke","Sanity" })
 	public static void methodNo2() {
-		System.out.println("this is second method");
+		System.out.println("hello this is Second method in Regression Suite");
 
 	}
 	
