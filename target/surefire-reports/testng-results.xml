@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-24T23:55:59 IST" name="sunny suite" finished-at="2021-06-24T23:56:11 IST" duration-ms="11657">
+  <suite started-at="2021-06-25T11:08:21 IST" name="sunny suite" finished-at="2021-06-25T11:08:28 IST" duration-ms="7133">
     <groups>
       <group name="Sanity">
-        <method signature="RegressionSuite.methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@31304f14]" name="methodNo2" class="Selenium.Jenkins.RegressionSuite"/>
+        <method signature="RegressionSuite.methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" name="methodNo2" class="Selenium.Jenkins.RegressionSuite"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="RegressionSuite.methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@31304f14]" name="methodNo2" class="Selenium.Jenkins.RegressionSuite"/>
-        <method signature="RegressionSuite.searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.RegressionSuite@31304f14]" name="searchMyNameInGoogle" class="Selenium.Jenkins.RegressionSuite"/>
-        <method signature="SmokeSuite.smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6025e1b6]" name="smoke1" class="Selenium.Jenkins.SmokeSuite"/>
+        <method signature="RegressionSuite.methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" name="methodNo2" class="Selenium.Jenkins.RegressionSuite"/>
+        <method signature="RegressionSuite.searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" name="searchMyNameInGoogle" class="Selenium.Jenkins.RegressionSuite"/>
+        <method signature="SmokeSuite.smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6e38921c]" name="smoke1" class="Selenium.Jenkins.SmokeSuite"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="RegressionSuite.methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@31304f14]" name="methodNo2" class="Selenium.Jenkins.RegressionSuite"/>
-        <method signature="RegressionSuite.searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.RegressionSuite@31304f14]" name="searchMyNameInGoogle" class="Selenium.Jenkins.RegressionSuite"/>
-        <method signature="SmokeSuite.smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6025e1b6]" name="smoke1" class="Selenium.Jenkins.SmokeSuite"/>
+        <method signature="RegressionSuite.methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" name="methodNo2" class="Selenium.Jenkins.RegressionSuite"/>
+        <method signature="RegressionSuite.searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" name="searchMyNameInGoogle" class="Selenium.Jenkins.RegressionSuite"/>
+        <method signature="SmokeSuite.smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6e38921c]" name="smoke1" class="Selenium.Jenkins.SmokeSuite"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-06-24T23:55:59 IST" name="Test" finished-at="2021-06-24T23:56:11 IST" duration-ms="11657">
+    <test started-at="2021-06-25T11:08:21 IST" name="Test" finished-at="2021-06-25T11:08:28 IST" duration-ms="7133">
       <class name="Selenium.Jenkins.SmokeSuite">
-        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6025e1b6]" started-at="2021-06-24T23:56:11 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-24T23:56:11 IST" duration-ms="1" status="PASS">
+        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6e38921c]" started-at="2021-06-25T11:08:28 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-25T11:08:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smoke1 -->
-        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6025e1b6]" started-at="2021-06-24T23:56:11 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-24T23:56:11 IST" duration-ms="0" status="PASS">
+        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6e38921c]" started-at="2021-06-25T11:08:28 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-25T11:08:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smoke1 -->
-        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6025e1b6]" started-at="2021-06-24T23:56:11 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-24T23:56:11 IST" duration-ms="0" status="PASS">
+        <test-method signature="smoke1(java.lang.String,java.lang.String)[pri:0, instance:Selenium.Jenkins.SmokeSuite@6e38921c]" started-at="2021-06-25T11:08:28 IST" name="smoke1" data-provider="sunny" finished-at="2021-06-25T11:08:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,15 +70,15 @@
         </test-method> <!-- smoke1 -->
       </class> <!-- Selenium.Jenkins.SmokeSuite -->
       <class name="Selenium.Jenkins.RegressionSuite">
-        <test-method signature="searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.RegressionSuite@31304f14]" started-at="2021-06-24T23:55:59 IST" name="searchMyNameInGoogle" finished-at="2021-06-24T23:56:10 IST" duration-ms="10321" status="PASS">
+        <test-method signature="searchMyNameInGoogle()[pri:1, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" started-at="2021-06-25T11:08:21 IST" name="searchMyNameInGoogle" finished-at="2021-06-25T11:08:27 IST" duration-ms="6009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchMyNameInGoogle -->
-        <test-method signature="methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@31304f14]" started-at="2021-06-24T23:56:10 IST" name="methodNo2" finished-at="2021-06-24T23:56:10 IST" duration-ms="0" status="PASS">
+        <test-method signature="methodNo2()[pri:2, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" started-at="2021-06-25T11:08:27 IST" name="methodNo2" finished-at="2021-06-25T11:08:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodNo2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.Jenkins.RegressionSuite@31304f14]" started-at="2021-06-24T23:56:10 IST" name="tearDown" finished-at="2021-06-24T23:56:11 IST" duration-ms="1268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.Jenkins.RegressionSuite@1efee8e7]" started-at="2021-06-25T11:08:27 IST" name="tearDown" finished-at="2021-06-25T11:08:28 IST" duration-ms="1084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,2 +1,3 @@
 Selenium\Jenkins\RegressionSuite.class
 Selenium\Jenkins\SmokeSuite.class
+OnlySelenium\basicSelenium.class
